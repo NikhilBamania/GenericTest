@@ -13,6 +13,7 @@ public class Main {
 		logger.error(a.append());
 
 		/*
+		 * 
 		 * //type Mismatch error a.setVar1(18); a.setVar2("pqrs"); a.setVar3(false);
 		 * a.setVar4(2.9);
 		 */
