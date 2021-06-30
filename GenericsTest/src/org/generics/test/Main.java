@@ -1,6 +1,9 @@
 package org.generics.test;
 
 import org.apache.logging.log4j.Logger;
+
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 
 public class Main {
@@ -24,6 +27,9 @@ public class Main {
 		AddNum<Number, Number> b = new AddNum<Number, Number>();
 		Double d = b.add(18, 25);
 		logger.error(d);
+		
+		List<Integer> l1 = List.of(18,25);
+		logger.error(b.sum(l1));
 	}
 
 }
